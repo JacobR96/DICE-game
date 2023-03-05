@@ -22,13 +22,13 @@ document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 if(randomNumber1 > randomNumber2) {
 
 
-document.querySelector("h1").innerHTML = "the muthadicker palyer 🍆 1 won Juan";
+document.querySelector("h1").innerHTML = "1 won Juan";
 }
 
 else if (randomNumber2 > randomNumber1) {
-    document.querySelector("h1").innerHTML ="player 2 is the biggest hoe ever";
+    document.querySelector("h1").innerHTML ="player 2 won";
 }
 
 else {
-    document.querySelector("h1").innerHTML = "Shoot it out because its a draw";
+    document.querySelector("h1").innerHTML = "its a draw";
 }
